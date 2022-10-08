@@ -41,9 +41,7 @@ while True:
         chances -= 1
     if chances == 0:
         print(stages[0])
-        print('Vaza irmão, tu perdeu feio!')
-        print('A palavra era',palavra_secreta, end ='.') 
-
+        print('Vaza irmão, tu perdeu feio!\n''A palavra era',palavra_secreta, end ='.')
         break
     elif set(palavra_secreta).issubset(set(chutes)):
         print('É... Tu ganhou, agora vaza!')
