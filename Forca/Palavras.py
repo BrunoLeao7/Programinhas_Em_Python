@@ -15,7 +15,6 @@ palavras = [
     'cabeludo',
     'compartilhamento',
     'disponibilizar',
-    
 ]
 
 alfabeto = [
