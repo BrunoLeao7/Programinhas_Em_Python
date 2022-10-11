@@ -1,9 +1,14 @@
 import random
+import os
 
 continuar = True
-faces = int(input('Escreva o numero de faces do dado ou o numero 0 para sair: '))
 
 while continuar:
+
+    os.system('cls')
+
+    faces = int(input('Escreva o numero de faces do dado ou o numero 0 para sair: '))
+    
     if faces == 0:
         exit()
     elif faces in[3, 4, 6, 8, 12, 20, 100]:
